@@ -1,0 +1,157 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.clock-dail
+{
+    width: 500px;
+    height: 500px;
+    border: 9px solid #900C3F;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+}
+.ponit
+{
+    width: 20px;
+    height: 20px;
+    background-color:#58071A;
+    position: absolute;
+    top: 269px;
+    left: 250px;
+    border-radius: 50%;
+}
+.hour
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: #2D0528;
+    position: absolute;
+}
+.hour-1
+{
+    top: 55px;
+    right: 100px;
+}
+.hour-2
+{
+    top: 156px;
+    right: 26px;
+}.hour-3
+{
+    top: 263px;
+    right: 16px;
+}.hour-4
+{
+    top: 360px;
+    right: 44px;
+}.hour-5
+{
+    top: 430px;
+    right: 113px;
+}.hour-6
+{
+    top: 479px;
+    right: 230px;
+}.hour-7
+{
+    top: 360px;
+    right: 443px;
+}.hour-8
+{
+    top: 430px;
+    right: 376px;
+}.hour-9{
+    top: 263px;
+    right:475px;
+}.hour-10
+{
+    top: 156px;
+    right:450px;
+}.hour-11
+{
+    top:55px;
+    right: 379px;
+}.hour-12
+{
+    top: 12px;
+    right: 230px;
+}
+.minute-hand-wrapper
+{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 73px;
+    left: 57px;
+    border-radius: 50%;
+}
+.minute-hand{
+    position: relative;
+}
+.minute-hand .hand{
+    width: 4px;
+    height: 200px;
+    background-color:#94439C;
+    position: absolute;
+    left: 203px;
+}
+.minute-hand .arrow{
+    font-size: 30px;
+    font-weight: bolder;
+    color:#94439C ;
+    transform: rotate(180deg);
+    position: absolute;
+    left: 196px;
+    top: -7px;
+}
+.hour-hand-wrapper
+{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 72px;
+    left: 57px;
+    border-radius: 50%;
+}
+.hour-hand
+{
+    position: relative;
+}
+.hour-hand .hand{
+    width: 4px;
+    height: 100px;
+    background-color:#94439C;
+    position: absolute;
+    left: 203px;
+    top: 103px;
+}
+.hour-hand .arrow{
+    font-size: 30px;
+    font-weight: bolder;
+    color:#94439C ;
+    transform: rotate(180deg);
+    position: absolute;
+    left: 196px;
+    top: 87px;
+}
+.second-hand-wrapper
+{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 69px;
+    left: 57px;
+    border-radius: 50%;
+}
+.second-hand
+{
+    position: relative;
+}
+.second-hand .hand{
+    width: 2px;
+    height: 227px;
+    background-color:#94439C;
+    position: absolute;
+    left: 203px;
+    top: -22px;
+}
