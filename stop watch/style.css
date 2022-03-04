@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.conatiner
+{
+margin: 0 auto;
+height: auto;
+max-width: 1200px;
+width: 90%;
+}
+.stop-watch
+{
+    width: 200px;
+    height: 200px;
+    border: 2px solid blue;
+    border-radius: 100%;
+    margin-top: 10px;
+    float: left;
+}
+.stop-watch p
+{
+ text-align: center;
+ margin-top: 10PX;
+}
+.stop-watch .result
+{
+    text-align: center;
+    float: left;
+    font-size: 40px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.butn
+{
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-top: 80px;
+}
+#butn-start
+{
+    border: 2px solid blue;
+    margin-left: 10px;
+    color: blue;
+    border-radius: 5px; 
+    background-color:#F8F8FF;
+}
+#butn-stop
+{border: 2px solid blue;
+    color: blue;
+    border-radius: 5px;
+    background-color:#F8F8FF;
+
+}
+#butn-restart
+{
+    border: 2px solid blue;
+    color: blue;
+    background-color:#F8F8FF;
+    border-radius: 5px;
+
+}
+/*------------------------calculator---------------*/
