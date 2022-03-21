@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tic .css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="contol">
+        <h5>Play Button</h5>
+        <input type="radio" name = "xo" id="X" value="X" checked/>X
+        <input type="radio" name = "xo" id="O" value="O"/>O
+    </div>
+    <div class="container">
+        <section class="game">
+            <div class="class">
+                <Table>
+                <tr>
+                    <button class="btn"  onclick="displayBtn1();playbut1()"><p id="btn1"></p></button>
+                    <button class="btn"  onclick="displayBtn2();playbut1()"><p id="btn2"></p></button>
+                    <button class="btn"  onclick="displayBtn3();playbut1()"><p id="btn3"></p></button>
+
+               
+                </tr>
+                <tr>
+                    <button class="btn"  onclick="displayBtn4();playbut1()"><p id="btn4"></p></button>
+                    <button class="btn"  onclick="displayBtn5();playbut1()"><p id="btn5"></p></button>
+                    <button class="btn"  onclick="displayBtn6();playbut1()"><p id="btn6"></p></button>
+
+
+                  </tr>
+                  <tr>
+                    <button class="btn"  onclick="displayBtn7(),playbut1()"><p id="btn7"></p></button>
+                    <button class="btn"  onclick="displayBtn8(),playbut1()"><p id="btn8"></p></button>
+                    <button class="btn"  onclick="displayBtn9(),playbut1()"><p id="btn9"></p></button>
+
+
+
+                  </tr>
+
+                </Table>
+            <button class="submit" id="sumbtn" onclick="clearTic()" value="refersh">Refersh</button>
+    <div><span id="player_XO" style="float: left; margin-top: 70px; font-weight: bold;"></span></div>
+
+        </section>
+    </div>
+
+    <script src="tic tac.js"></script>
+</body>
+</html>

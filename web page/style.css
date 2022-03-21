@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.conatiner
+{
+margin: 0 auto;
+height: auto;
+max-width: 1200px;
+width: 90%;
+}
+.head-section
+{
+    width: 100%;
+    height: 100px;
+    float: left;
+    border: 3px solid black;
+}
+
+
+.logo
+{
+    width: 178px;
+    float: left;
+    height: 52px;
+    border-radius: 75%;
+    background-color: red;
+    margin: 10px 0 0 10px;
+    text-align: center;
+    padding-top: 10px;
+
+}
+.logo h4
+{
+    padding-top: 10px;
+}
+.heading-center
+{
+    float: left;
+    width: 50%;
+    height: auto;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.nav-bar 
+{
+    width: 425px;
+    height: 50px;
+    float: left;
+    margin-top: 20px;
+
+}
+ .nav-bar li
+{
+    display: inline;
+    width: 140px;
+    height: 30px;
+    border: 3px solid black;
+    border-radius: 22%;
+    margin-right: 53px;
+    padding: 8px;
+
+
+}
+.nav-bar li a
+{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+/*-------------------center-------------*/
+.center 
+{
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-top: 10px;
+}
+.center-leftpart
+{
+    width: 39%;
+    height: 500px;
+    float: left;
+    border: 3px solid black;
+} 
+.center-leftpart .sub-menu
+{
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+}
+.center-leftpart .sub-menu li
+{
+    background-color: gray;
+    display: block;
+    padding-top: 10px ;
+    margin-bottom: 10px;
+    color: white;
+    padding-left: 20px;
+}
+
+.center-rightpart
+{
+    float: right;
+    border: 3px solid black;
+    width: 60%;
+    height: 500px;
+}
+/*-----------------------footer-----------*/
+.last-part
+{
+    float: left;
+    width: 100%;
+    height: 70px;
+    margin-top: 10px;
+    border: 3px solid black;
+}
+.last-part p
+{
+    text-align: center;
+    padding-top: 20px;
+}
